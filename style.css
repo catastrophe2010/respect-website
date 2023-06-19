@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3b5b5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    display:flex;
+
+    justify-content:flex-end;
+    padding: 20px 100px;
+}
+header .logo{
+    text-transform: capitalize;
+    font-weight:800;
+    font-style: oblique;
+    margin-right: auto;
+    letter-spacing: 3px;
+    font-size: 2em;
+    border-bottom: 4px solid magenta;
+    
+}
+header .logo i{
+    color: red;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+header nav ul{
+    list-style: none;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 800;
+}
+header button{
+    border: 1px solid magenta;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: magenta;
+}
+main{
+    text-align: center;
+    /* border: 2px solid wheat; */
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+main h1{
+    text-transform: capitalize;
+    font-size: 2.5em;
+    border-bottom: 5px solid magenta;
+    
+}
+main p{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 0;
+}
+main button{
+    padding: 20px 50px;
+    margin-top: 10px;
+    font-weight: 800;
+    background-color: magenta;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    border: none;
+    box-shadow:  0 0 7px rgba(0, 0, 0, 0.279);
+
+    /* box-shadow: ; */
+
+}
+.img-ec{
+    border-radius: 10px;
+    box-shadow:  0 0 7px rgba(0, 0, 0, 0.626);
+    background-image: url(./fine\ mum.JPG);
+    width: 700px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.price{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 90px 20px ;
+    width: 40%;
+
+    
+}
+.price-1{
+    width: 40%;
+}
+.price-2{
+    width: 40%;
+}
+.price h1{
+    font-size: 50px;
+}
+.price h3{
+    color: rgba(0, 0, 0, 0.204);
+}
+.grow-together{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;align-items:center;
+}
+.grow-together-2{
+    box-shadow:  0 0 7px rgba(0, 0, 0, 0.626);
+
+    background-image: url(./richard.jpg);
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-radius: 200px;
+}
+.grow-together-1{
+    width: 40%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+.grow-together-1 p{
+    padding: 15px 0;
+    
+}
+.grow-together-1 h1{
+    /* font-weight:bolder; */
+    text-transform: capitalize;
+    font-size: 2.1em;
+    color: darkblue;
+    border: 3px solid darkmagenta;
+    padding: 7px;
+    width: 60%;
+}
+.flowing{
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.flowing-2{
+    box-shadow:  0 0 7px rgba(0, 0, 0, 0.626);
+
+    background-image: url(./mummy.jpeg);
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    background-position: center;
+    background-size: cover;
+    order: 1;
+}
+.flowing-1{
+    width: 40%;
+    margin: 0 auto;
+    order: 2;
+
+}
+.flowing p{
+    padding: 15px 0;
+    font-weight: 700;
+}
+.flowing h1{
+    text-transform: capitalize;
+    font-size: 2.1em;
+    color: darkblue;
+    border: 3px solid darkmagenta;
+    padding: 7px;
+    width: 60%;
+
+}
+.user{
+    display: flex;
+    border-radius: 10px;
+    margin:60px auto ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 10px; */
+    width: 80%;
+    background-color: skyblue;
+    padding:40px  60px;
+}
+.user-2{
+    background-image: url(./roseandiya.jpg);
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.user-1{
+    width: 40%;
+    margin: 0 auto;
+}
+.user p{
+    padding: 15px 0;
+    font-weight: 700;
+}
+.user h1{
+    text-transform: capitalize;
+    font-size: 2.1em;
+    color: darkblue;
+    border: 3px solid darkmagenta;
+    padding: 7px;
+    width: 60%;
+}
+.hello{
+    background-color: whitesmoke;
+    padding: 100px 0;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello button{
+    margin-top: 60px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding:100px 150px 10px 150px;
+    background-color:darkblue;
+    color: whitesmoke;
+}
+.container .container-1 h1{
+    text-transform: capitalize;
+    font-weight: 800;
+    padding-bottom: 10px;
+    font-size: 3em;
+
+}
+.container .container-1{
+    width: 20%;
+}
+.container .container-2{
+    width: 30%;
+}.container div p:first-child{
+    font-weight: 800;
+    font-size: 2.5em;
+}
+.container .phone{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.container .phone span{
+    font-size: 1em;
+    padding-bottom: 15px;
+}
+.container .phone span .fa-phone-volume,.fa-envelope{
+    padding-right: 15px;
+}.container .container-2 h2{
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 2.2em;
+    padding-bottom: 10px;
+}
+.news-letter-btns{
+    width: 100%;
+    background-color: darkblue;
+    padding: 0 150px;
+}
+.news-letter-btns input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+}
+.news-letter-btns button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: 800;
+    /* background-color: darkmagenta; */
+      background-color: #f3b5b5;
+}
+footer{
+    padding: 15px 0;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke !important;
+    
+}
+footer span a{
+    padding: 15px 25px;
+    color: whitesmoke;
+    font-size: 2.5em;
+}
+
